@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LEEDS Family Restaurant | Gampola</title>
+<meta name="description" content="LEEDS Family Restaurant in Gampola, Sri Lanka. Family dining, delicious food and a welcoming atmosphere.">
+<meta name="theme-color" content="#17130f">
+<style>
+:root{--dark:#17130f;--dark2:#241b15;--cream:#fff8ed;--gold:#d99a2b;--gold2:#f0bd58;--red:#8e2d20;--text:#211a15;--muted:#74695f;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,Helvetica,sans-serif;background:var(--cream);color:var(--text);line-height:1.6}
+a{text-decoration:none}
+nav{position:sticky;top:0;z-index:20;background:rgba(23,19,15,.98);display:flex;align-items:center;justify-content:space-between;padding:14px 6%;color:#fff}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:1px}.logo-mark{width:38px;height:38px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:17px}.logo small{display:block;color:var(--gold);font-size:8px;letter-spacing:2px}
+.links a{color:#fff;margin-left:20px;font-size:.9rem}.menu-toggle{display:none;color:#fff;font-size:25px}
+.hero{min-height:84vh;display:flex;align-items:center;padding:80px 6%;background:linear-gradient(90deg,rgba(0,0,0,.86),rgba(0,0,0,.32)),url('https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=2000&q=90') center/cover;color:#fff}
+.hero-content{max-width:760px}.eyebrow{color:var(--gold2);letter-spacing:4px;text-transform:uppercase;font-size:.78rem;font-weight:800}
+h1{font-size:clamp(3.2rem,8vw,6.5rem);line-height:.9;margin:16px 0}.hero p{font-size:1.12rem;color:#f4eee7;max-width:620px}
+.rating{margin:20px 0;font-weight:700}.stars{color:#ffc247}.btn{display:inline-block;padding:13px 20px;border-radius:7px;font-weight:800;margin:5px 6px 5px 0}.primary{background:var(--gold);color:#17130f}.outline{border:1px solid #fff;color:#fff}
+.info-strip{background:#fff;display:grid;grid-template-columns:repeat(4,1fr);box-shadow:0 8px 30px #00000010}.info{padding:22px;text-align:center;border-right:1px solid #eee}.info:last-child{border:0}.info b{display:block}.info span{color:var(--muted);font-size:.9rem}
+section{padding:78px 6%}.section-title{text-align:center;max-width:700px;margin:0 auto 42px}.section-title h2{font-size:2.6rem;line-height:1.1}.section-title p{color:var(--muted);margin-top:8px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about img{width:100%;border-radius:18px}.about h2{font-size:2.7rem;line-height:1.1;margin-bottom:16px}.about p{color:var(--muted);margin-bottom:15px}.ticks{list-style:none;margin:20px 0}.ticks li{margin:9px 0;font-weight:700}.ticks li:before{content:"✓";color:var(--gold);font-weight:900;margin-right:10px}
+.dark{background:var(--dark);color:#fff}.dark .section-title p{color:#c7bcb1}
+.menu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.menu-card{border:1px solid #493d34;border-radius:12px;padding:20px}.menu-card h3{color:var(--gold2);margin-bottom:6px}.menu-card p{color:#c8bdb3;font-size:.93rem}.price-note{margin-top:28px;text-align:center;color:#c8bdb3;font-size:.9rem}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.feature{background:#fff;padding:28px;border-radius:14px;text-align:center;box-shadow:0 7px 25px #00000009}.feature .icon{font-size:2rem}.feature h3{margin:8px 0}.feature p{color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery img{width:100%;height:250px;object-fit:cover;border-radius:12px}
+.reserve{background:linear-gradient(135deg,#8e2d20,#5e1e16);color:#fff;text-align:center}.reserve h2{font-size:2.5rem}.reserve p{margin:10px auto 22px;max-width:650px;color:#f4ded8}
+.contact{background:#efe3d1}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.box{background:#fff;border-radius:14px;padding:28px}.box h3{margin-bottom:10px}.box p{margin:7px 0;color:var(--muted)}.box a{color:var(--red);font-weight:800}.map{width:100%;height:320px;border:0;border-radius:14px}
+footer{background:#17130f;color:#cfc5bb;padding:35px 6%;text-align:center}.footer-logo{font-size:1.4rem;color:#fff;font-weight:900}.socials{margin:15px}.socials a{color:var(--gold2);margin:0 8px;font-weight:700}
+@media(max-width:800px){.links{display:none}.menu-toggle{display:block}.info-strip{grid-template-columns:1fr 1fr}.info{border-bottom:1px solid #eee}.about,.contact-grid,.menu-grid{grid-template-columns:1fr}.features{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery img{height:190px}section{padding:60px 6%}}
+@media(max-width:480px){.info-strip{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img{height:220px}.hero{min-height:78vh}.hero h1{font-size:3.3rem}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="#top"><span class="logo-mark">L</span><span>LEEDS<small>FAMILY RESTAURANT</small></span></a>
+  <div class="links"><a href="#about">About</a><a href="#menu">Menu</a><a href="#photos">Photos</a><a href="#contact">Contact</a></div>
+  <div class="menu-toggle">☰</div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-content">
+    <div class="eyebrow">Gampola • Sri Lanka</div>
+    <h1>Good Food.<br>Good Company.</h1>
+    <p>Welcome to LEEDS Family Restaurant — a comfortable place for family meals, friends, groups and memorable moments.</p>
+    <div class="rating"><span class="stars">★ ★ ★</span> 3.3/5 · 380 reviews</div>
+    <a class="btn primary" href="tel:+94777120579">Call Now</a>
+    <a class="btn outline" href="https://wa.me/94777120579?text=Hello%20LEEDS%20Family%20Restaurant%2C%20I%20would%20like%20to%20make%20an%20inquiry." target="_blank">WhatsApp</a>
+    <a class="btn outline" href="https://www.google.com/maps/search/?api=1&query=LEEDS%20Family%20Restaurant%2C%20242%2FA%20Kandy%20Rd%2C%20Gampola%2020500" target="_blank">Directions</a>
+  </div>
+</header>
+
+<div class="info-strip">
+  <div class="info">🍽️<b>Family Dining</b><span>Comfortable for groups</span></div>
+  <div class="info">💰<b>Rs 1,000–2,000</b><span>Approx. per person</span></div>
+  <div class="info">🕛<b>Open Until 12 AM</b><span>Restaurant hours</span></div>
+  <div class="info">📍<b>Gampola</b><span>242/A Kandy Road</span></div>
+</div>
+
+<section id="about">
+<div class="about">
+<img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=90" alt="Restaurant dining">
+<div>
+<h2>A Place for Family & Friends</h2>
+<p>Located at 242/A Kandy Rd, Gampola, LEEDS Family Restaurant is a convenient spot for a relaxed meal with the people who matter.</p>
+<p>From everyday meals to casual gatherings, our goal is simple: make your visit comfortable and enjoyable.</p>
+<ul class="ticks"><li>Family-friendly atmosphere</li><li>All-you-can-eat option</li><li>High chairs available</li><li>Open until midnight</li></ul>
+<a class="btn primary" href="#contact">Visit Us</a>
+</div>
+</div>
+</section>
+
+<section id="menu" class="dark">
+<div class="section-title"><h2>Our Food</h2><p>A selection of popular favourites. Ask our team for today's available dishes and prices.</p></div>
+<div class="menu-grid">
+<div class="menu-card"><h3>Rice & Curry</h3><p>Traditional Sri Lankan-style meal options.</p></div>
+<div class="menu-card"><h3>Fried Rice</h3><p>A satisfying favourite for lunch or dinner.</p></div>
+<div class="menu-card"><h3>Kottu</h3><p>Freshly prepared, hearty and perfect for sharing.</p></div>
+<div class="menu-card"><h3>Noodles</h3><p>A versatile family dining choice.</p></div>
+<div class="menu-card"><h3>Short Eats</h3><p>Great for a quick bite or something to share.</p></div>
+<div class="menu-card"><h3>Beverages</h3><p>Refreshing drinks to complement your meal.</p></div>
+</div>
+<div class="price-note">Menu prices can change. Please contact the restaurant for the current menu and prices.</div>
+</section>
+
+<section>
+<div class="section-title"><h2>Why Choose LEEDS?</h2><p>Designed for relaxed, convenient family dining.</p></div>
+<div class="features">
+<div class="feature"><div class="icon">👨‍👩‍👧‍👦</div><h3>Family Friendly</h3><p>A welcoming setting for families and groups.</p></div>
+<div class="feature"><div class="icon">🍛</div><h3>Great Variety</h3><p>Popular meal choices for different tastes.</p></div>
+<div class="feature"><div class="icon">🕛</div><h3>Late Dining</h3><p>Open until midnight for your convenience.</p></div>
+</div>
+</section>
+
+<section id="photos">
+<div class="section-title"><h2>Restaurant Gallery</h2><p>Replace these sample images with your own restaurant and food photos for the final version.</p></div>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=1000&q=90" alt="Food">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=90" alt="Restaurant interior">
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=90" alt="Restaurant meal">
+</div>
+</section>
+
+<section class="reserve">
+<h2>Planning a Visit?</h2>
+<p>For table inquiries, group visits, menu questions or other information, contact LEEDS Family Restaurant directly on WhatsApp.</p>
+<a class="btn primary" href="https://wa.me/94777120579?text=Hello%20LEEDS%20Family%20Restaurant%2C%20I%20would%20like%20to%20make%20a%20reservation%20or%20inquiry." target="_blank">Message on WhatsApp</a>
+<a class="btn outline" href="tel:+94777120579">Call 077 712 0579</a>
+</section>
+
+<section id="contact" class="contact">
+<div class="section-title"><h2>Find Us</h2><p>Come and enjoy a meal at LEEDS Family Restaurant.</p></div>
+<div class="contact-grid">
+<div class="box">
+<h3>📍 Address</h3><p>242/A Kandy Rd,<br>Gampola 20500, Sri Lanka</p>
+<h3 style="margin-top:20px">📞 Contact</h3><p><a href="tel:+94777120579">077 712 0579</a></p>
+<p><a href="https://wa.me/94777120579" target="_blank">WhatsApp us</a></p>
+<h3 style="margin-top:20px">🕐 Hours</h3><p>Open · Closes 12:00 AM</p>
+</div>
+<div>
+<iframe class="map" loading="lazy" src="https://www.google.com/maps?q=LEEDS%20Family%20Restaurant%2C%20242%2FA%20Kandy%20Rd%2C%20Gampola%2020500&output=embed"></iframe>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="footer-logo">LEEDS Family Restaurant</div>
+<p>242/A Kandy Rd, Gampola 20500 · 077 712 0579</p>
+<div class="socials"><a href="#" onclick="alert('Add your Instagram URL here.');return false;">Instagram</a><a href="#" onclick="alert('Add your Facebook URL here.');return false;">Facebook</a><a href="https://wa.me/94777120579" target="_blank">WhatsApp</a></div>
+<p>© 2026 LEEDS Family Restaurant. All rights reserved.</p>
+</footer>
+</body>
+</html>
